@@ -1,7 +1,6 @@
 body {
-    height: 100vh;
     background: linear-gradient(#2e5170,#022340); 
-    overflow: hidden;  
+    
 }
 
 .n-horizontal, .n-vertical{
@@ -17,12 +16,12 @@ body {
     
 }
 .n-vertical{
-    height: 90vh;
+    height: 96vh;
     width: 2.5rem;
     padding: .5rem;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 16px;
     justify-content: center;
 }
 
@@ -32,4 +31,37 @@ body {
 .n-vertical__social-link img{
     width: 40px;
     height: 40px;
+}
+
+/* Destaque */
+
+main{
+    display: flex;
+    gap: 40px;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+.emphasis{
+    
+    margin-top: 2.5rem;
+    background-color: #2C2827;
+    width: 90vw;
+    height: 70vh;
+    border-radius: 3rem;
+}
+.player{
+    align-self: center;
+    background-color: #F2E205;
+    width: 60vw;
+    height: 20vh;
+    border-radius: 5rem;
+}
+    
 }
