@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    background: linear-gradient(#2e5170,#022340); 
+    overflow: hidden;  
+}
+
+.n-horizontal, .n-vertical{
+    background-color: #2C2827;
+    border: #F2E205 solid 1px;
+}
+.n-horizontal{
+    width: 100vw;
+    height: 1rem;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+    
+}
+.n-vertical{
+    height: 90vh;
+    width: 2.5rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+}
+
+.n-horizontal__logo img{
+    width: 4rem;
+}
+.n-vertical__social-link img{
+    width: 40px;
+    height: 40px;
+}
